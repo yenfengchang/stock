@@ -112,6 +112,3 @@ if st.button(translations[state.lang]['search']):
         st.write(translations[state.lang]['no_results'])
 
 st.session_state['state'] = state
-Also created "requirements.txt" as follows:
-
-geoip2
